@@ -17,7 +17,8 @@ namespace WinFormsAppWarehouseManagement
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
              Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new MainPage());
+             Application.Run(new LogInFolder.Form1());
+            //Application.Run(new MainPage());
             //Console.WriteLine("Hello World!");
         }
     }
