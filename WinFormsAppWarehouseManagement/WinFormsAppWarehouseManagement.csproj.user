@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="CollectDesc.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FileEntryContents\FileContentsForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FileEntryContents\FileInformationForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FileEntryContents\POWOAddItem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FileEntryContents\SaveFromFile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FileEntryContents\ViewAllPO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FileEntryContents\ViewAllWO.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FileEntryForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="HelpForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="MainPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FileEntryContents\PurchaseOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ReportForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="SaveFileForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="ShippingReceivingForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="FileEntryContents\WorkOrder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
