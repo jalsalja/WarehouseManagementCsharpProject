@@ -11,6 +11,7 @@ using System.Windows.Forms;
 using CsvHelper;
 using System.IO;
 using System.Globalization;
+using MySql.Data.MySqlClient;
 
 namespace WinFormsAppWarehouseManagement.FileEntryContents
 {
@@ -88,41 +89,51 @@ namespace WinFormsAppWarehouseManagement.FileEntryContents
 
         public void fromLoad_Click_of_SaveFromFile(String value)
         {
-            SaveFromFile sf = new SaveFromFile();
+            //SaveFromFile sf = new SaveFromFile();
+
+
+
             //string value = sf.passingText;
             //DataGridView.DataSource = DbFileEntry.LoadCSV(value);
           //  DataGridView.DataSource = LoadCSV(value);
         }
+
+        private void BackBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LogInFolder.FileEntryForm fe = new LogInFolder.FileEntryForm();
+            fe.ShowDialog();
+        }
         /*
-        public List<FileEntry> LoadCSV(string csvFile)
-        {
-            List<FileEntry> records;
-            var reader = new StreamReader(csvFile);
-            var csv = new CsvReader(reader, CultureInfo.InvariantCulture);
+public List<FileEntry> LoadCSV(string csvFile)
+{
+   List<FileEntry> records;
+   var reader = new StreamReader(csvFile);
+   var csv = new CsvReader(reader, CultureInfo.InvariantCulture);
 
-            records = csv.GetRecords<FileEntry>().ToList();
+   records = csv.GetRecords<FileEntry>().ToList();
 
-            return records;
-        }
+   return records;
+}
+*/
+        /*
+         public List<FileEntry> LoadCSV(string csvFile)
+         {
+
+           string query = from 1 in File.ReadAllLines(csvFile)
+                         let data = 1.Split(',')
+                         select new FileEntry
+                         {
+                             id = int.Parse(data[0]),
+                             item_name = data[1],
+                             quantity = int.Parse(data[2]),
+                             location = data[3]
+
+
+                         };
+
+         return query.ToList();
+         }
         */
-       /*
-        public List<FileEntry> LoadCSV(string csvFile)
-        {
-            
-          string query = from 1 in File.ReadAllLines(csvFile)
-                        let data = 1.Split(',')
-                        select new FileEntry
-                        {
-                            id = int.Parse(data[0]),
-                            item_name = data[1],
-                            quantity = int.Parse(data[2]),
-                            location = data[3]
-
-
-                        };
-
-        return query.ToList();
-        }
-       */
     }
 }

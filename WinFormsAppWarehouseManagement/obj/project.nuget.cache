@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Me7iIHeT+7A81ZvUoUaRlnyqkf+RMXIgdxnc21fJuWYtRuzbNtZJDq2v0HwS7wxTH3gHRoXfclMmfCPrdl0jCA==",
+  "dgSpecHash": "2Eekr4Oh0D9PZl2GX6Zz0M2L4xZdta0NTy/vbCzESbScTxKQ+Wp6SOcKMdEqYR9QlKpKCprtmgc4P+fWfg6wyw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\annah\\Documents\\cs481TeamProject\\cs481-s21-team_2\\src\\csharp-project\\WinFormsAppWarehouseManagement\\WinFormsAppWarehouseManagement\\WinFormsAppWarehouseManagement.csproj",
+  "projectFilePath": "C:\\Users\\annah\\Documents\\WarehouseManagementProject\\WarehouseManagementCsharpProject\\WinFormsAppWarehouseManagement\\WinFormsAppWarehouseManagement.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\annah\\.nuget\\packages\\bouncycastle.netcore\\1.8.5\\bouncycastle.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\annah\\.nuget\\packages\\csvhelper\\26.1.0\\csvhelper.26.1.0.nupkg.sha512",

@@ -30,8 +30,8 @@ namespace WinFormsAppWarehouseManagement.FileEntryContents
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FileContentsForm));
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
             this.panel1 = new System.Windows.Forms.Panel();
             this.FileContes = new System.Windows.Forms.Label();
             this.fileContentPanel = new System.Windows.Forms.Panel();
@@ -45,6 +45,7 @@ namespace WinFormsAppWarehouseManagement.FileEntryContents
             this.Column4 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.Column5 = new System.Windows.Forms.DataGridViewButtonColumn();
             this.Column6 = new System.Windows.Forms.DataGridViewButtonColumn();
+            this.BackBtn = new System.Windows.Forms.Button();
             this.panel1.SuspendLayout();
             this.fileContentPanel.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
@@ -57,19 +58,19 @@ namespace WinFormsAppWarehouseManagement.FileEntryContents
             this.panel1.Controls.Add(this.FileContes);
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
-            this.panel1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(645, 33);
+            this.panel1.Size = new System.Drawing.Size(1566, 90);
             this.panel1.TabIndex = 0;
             // 
             // FileContes
             // 
             this.FileContes.AutoSize = true;
             this.FileContes.ForeColor = System.Drawing.Color.White;
-            this.FileContes.Location = new System.Drawing.Point(116, 11);
-            this.FileContes.Margin = new System.Windows.Forms.Padding(1, 0, 1, 0);
+            this.FileContes.Location = new System.Drawing.Point(282, 30);
+            this.FileContes.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.FileContes.Name = "FileContes";
-            this.FileContes.Size = new System.Drawing.Size(76, 15);
+            this.FileContes.Size = new System.Drawing.Size(191, 41);
             this.FileContes.TabIndex = 0;
             this.FileContes.Text = "File Contents";
             // 
@@ -80,24 +81,25 @@ namespace WinFormsAppWarehouseManagement.FileEntryContents
             | System.Windows.Forms.AnchorStyles.Right)));
             this.fileContentPanel.BackColor = System.Drawing.Color.White;
             this.fileContentPanel.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
+            this.fileContentPanel.Controls.Add(this.BackBtn);
             this.fileContentPanel.Controls.Add(this.btNew);
             this.fileContentPanel.Controls.Add(this.txtSearch);
             this.fileContentPanel.Controls.Add(this.pictureBox1);
             this.fileContentPanel.Controls.Add(this.DataGridView);
-            this.fileContentPanel.Location = new System.Drawing.Point(11, 41);
-            this.fileContentPanel.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.fileContentPanel.Location = new System.Drawing.Point(27, 112);
+            this.fileContentPanel.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.fileContentPanel.Name = "fileContentPanel";
-            this.fileContentPanel.Size = new System.Drawing.Size(626, 252);
+            this.fileContentPanel.Size = new System.Drawing.Size(1517, 685);
             this.fileContentPanel.TabIndex = 0;
             // 
             // btNew
             // 
             this.btNew.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(128)))), ((int)(((byte)(255)))));
             this.btNew.ForeColor = System.Drawing.Color.White;
-            this.btNew.Location = new System.Drawing.Point(32, 29);
-            this.btNew.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.btNew.Location = new System.Drawing.Point(78, 101);
+            this.btNew.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.btNew.Name = "btNew";
-            this.btNew.Size = new System.Drawing.Size(99, 26);
+            this.btNew.Size = new System.Drawing.Size(240, 71);
             this.btNew.TabIndex = 1;
             this.btNew.Text = "New";
             this.btNew.UseVisualStyleBackColor = false;
@@ -106,10 +108,10 @@ namespace WinFormsAppWarehouseManagement.FileEntryContents
             // txtSearch
             // 
             this.txtSearch.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
-            this.txtSearch.Location = new System.Drawing.Point(256, 37);
-            this.txtSearch.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.txtSearch.Location = new System.Drawing.Point(398, 125);
+            this.txtSearch.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.txtSearch.Name = "txtSearch";
-            this.txtSearch.Size = new System.Drawing.Size(293, 23);
+            this.txtSearch.Size = new System.Drawing.Size(706, 47);
             this.txtSearch.TabIndex = 1;
             this.txtSearch.TextChanged += new System.EventHandler(this.txtSearch_TextChanged);
             // 
@@ -117,10 +119,10 @@ namespace WinFormsAppWarehouseManagement.FileEntryContents
             // 
             this.pictureBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Right)));
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(545, 37);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.pictureBox1.Location = new System.Drawing.Point(1108, 125);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(21, 17);
+            this.pictureBox1.Size = new System.Drawing.Size(51, 46);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox1.TabIndex = 2;
             this.pictureBox1.TabStop = false;
@@ -146,8 +148,8 @@ namespace WinFormsAppWarehouseManagement.FileEntryContents
             this.Column5,
             this.Column6});
             this.DataGridView.GridColor = System.Drawing.Color.White;
-            this.DataGridView.Location = new System.Drawing.Point(32, 83);
-            this.DataGridView.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.DataGridView.Location = new System.Drawing.Point(78, 227);
+            this.DataGridView.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.DataGridView.MultiSelect = false;
             this.DataGridView.Name = "DataGridView";
             this.DataGridView.ReadOnly = true;
@@ -156,10 +158,9 @@ namespace WinFormsAppWarehouseManagement.FileEntryContents
             this.DataGridView.RowHeadersWidthSizeMode = System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.DisableResizing;
             this.DataGridView.RowTemplate.Height = 49;
             this.DataGridView.ShowEditingIcon = false;
-            this.DataGridView.Size = new System.Drawing.Size(558, 146);
+            this.DataGridView.Size = new System.Drawing.Size(1355, 399);
             this.DataGridView.TabIndex = 0;
             this.DataGridView.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dataGridView);
-            //this.DataGridView.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.DataGridView_CellContentClick);
             // 
             // Column1
             // 
@@ -195,13 +196,13 @@ namespace WinFormsAppWarehouseManagement.FileEntryContents
             // 
             // Column5
             // 
-            dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle1.ForeColor = System.Drawing.Color.Black;
-            dataGridViewCellStyle1.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
-            dataGridViewCellStyle1.SelectionForeColor = System.Drawing.Color.Black;
-            this.Column5.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle3.ForeColor = System.Drawing.Color.Black;
+            dataGridViewCellStyle3.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
+            dataGridViewCellStyle3.SelectionForeColor = System.Drawing.Color.Black;
+            this.Column5.DefaultCellStyle = dataGridViewCellStyle3;
             this.Column5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Column5.HeaderText = "";
             this.Column5.MinimumWidth = 12;
@@ -212,13 +213,13 @@ namespace WinFormsAppWarehouseManagement.FileEntryContents
             // 
             // Column6
             // 
-            dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
-            dataGridViewCellStyle2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            dataGridViewCellStyle2.ForeColor = System.Drawing.Color.White;
-            dataGridViewCellStyle2.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
-            dataGridViewCellStyle2.SelectionForeColor = System.Drawing.Color.White;
-            this.Column6.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleCenter;
+            dataGridViewCellStyle4.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            dataGridViewCellStyle4.ForeColor = System.Drawing.Color.White;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(255)))), ((int)(((byte)(128)))), ((int)(((byte)(128)))));
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.Color.White;
+            this.Column6.DefaultCellStyle = dataGridViewCellStyle4;
             this.Column6.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Column6.HeaderText = "";
             this.Column6.MinimumWidth = 12;
@@ -227,14 +228,25 @@ namespace WinFormsAppWarehouseManagement.FileEntryContents
             this.Column6.Text = "Delete";
             this.Column6.UseColumnTextForButtonValue = true;
             // 
+            // BackBtn
+            // 
+            this.BackBtn.BackColor = System.Drawing.Color.Red;
+            this.BackBtn.Location = new System.Drawing.Point(1289, 118);
+            this.BackBtn.Name = "BackBtn";
+            this.BackBtn.Size = new System.Drawing.Size(144, 58);
+            this.BackBtn.TabIndex = 3;
+            this.BackBtn.Text = "Back";
+            this.BackBtn.UseVisualStyleBackColor = false;
+            this.BackBtn.Click += new System.EventHandler(this.BackBtn_Click);
+            // 
             // FileContentsForm
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 41F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(645, 310);
+            this.ClientSize = new System.Drawing.Size(1566, 847);
             this.Controls.Add(this.fileContentPanel);
             this.Controls.Add(this.panel1);
-            this.Margin = new System.Windows.Forms.Padding(1, 1, 1, 1);
+            this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.Name = "FileContentsForm";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "File Contents";
@@ -266,5 +278,6 @@ namespace WinFormsAppWarehouseManagement.FileEntryContents
         private System.Windows.Forms.DataGridViewTextBoxColumn Column4;
         private System.Windows.Forms.DataGridViewButtonColumn Column5;
         private System.Windows.Forms.DataGridViewButtonColumn Column6;
+        private System.Windows.Forms.Button BackBtn;
     }
 }

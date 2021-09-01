@@ -26,7 +26,7 @@ namespace WinFormsAppWarehouseManagement.LogInFolder
         {
             if(textUsername.Text == "admin" && textPassword.Text == "1234")
             {
-                MessageBox.Show("Succeed", "Succedd");
+                MessageBox.Show("Succeed", "Succeed");
                 this.Hide();
                 MainPage mp= new MainPage();
                 mp.ShowDialog();

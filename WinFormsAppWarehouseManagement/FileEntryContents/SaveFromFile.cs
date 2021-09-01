@@ -37,7 +37,12 @@ namespace WinFormsAppWarehouseManagement.FileEntryContents
             fc.ShowDialog();
 
         }
-        
 
+        private void backBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            LogInFolder.FileEntryForm fef = new LogInFolder.FileEntryForm();
+            fef.ShowDialog();
+        }
     }
 }

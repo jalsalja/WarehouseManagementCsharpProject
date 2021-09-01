@@ -13,8 +13,8 @@ namespace WinFormsAppWarehouseManagement.FileEntryContents
     {
         public static MySqlConnection GetConnection()
         {
-            string conn = "datasource=127.0.0.1;port=3306;username=root;pwd=;database=Warehouse";
-            //string cs = "Server=localhost;uid=root;pwd=St18an03!;database=WarehouseFile";
+            //string conn = "datasource=127.0.0.1;port=3306;username=root;pwd=;database=Warehouse";
+            string conn = "Server=localhost;uid=root;pwd=St18an03!;database=WarehouseFile";
             MySqlConnection sqlConn = new MySqlConnection(conn);
             try
             {

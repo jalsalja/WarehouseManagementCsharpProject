@@ -121,6 +121,7 @@ namespace WinFormsAppWarehouseManagement
             this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 41F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
+            this.BackColor = System.Drawing.SystemColors.HighlightText;
             this.ClientSize = new System.Drawing.Size(1326, 755);
             this.Controls.Add(this.HelpBt);
             this.Controls.Add(this.SaveFileBt);
@@ -129,7 +130,7 @@ namespace WinFormsAppWarehouseManagement
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.FileEntyBt);
             this.Name = "MainPage";
-            this.Text = "Form1";
+            this.Text = "Warehouse Management";
             this.Load += new System.EventHandler(this.MainPage_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

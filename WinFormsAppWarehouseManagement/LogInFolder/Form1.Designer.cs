@@ -41,12 +41,13 @@ namespace WinFormsAppWarehouseManagement.LogInFolder
             // 
             // btnOk
             // 
+            this.btnOk.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(255)))));
             this.btnOk.Location = new System.Drawing.Point(307, 474);
             this.btnOk.Name = "btnOk";
             this.btnOk.Size = new System.Drawing.Size(392, 56);
             this.btnOk.TabIndex = 0;
             this.btnOk.Text = "OK";
-            this.btnOk.UseVisualStyleBackColor = true;
+            this.btnOk.UseVisualStyleBackColor = false;
             this.btnOk.Click += new System.EventHandler(this.btnOk_Click);
             // 
             // textPassword
@@ -106,6 +107,7 @@ namespace WinFormsAppWarehouseManagement.LogInFolder
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 41F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.BackColor = System.Drawing.SystemColors.HighlightText;
             this.ClientSize = new System.Drawing.Size(1041, 680);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.label2);

@@ -52,7 +52,7 @@ namespace WinFormsAppWarehouseManagement.FileEntryContents
             this.addPanel.Dock = System.Windows.Forms.DockStyle.Top;
             this.addPanel.Location = new System.Drawing.Point(0, 0);
             this.addPanel.Name = "addPanel";
-            this.addPanel.Size = new System.Drawing.Size(986, 117);
+            this.addPanel.Size = new System.Drawing.Size(970, 117);
             this.addPanel.TabIndex = 0;
             // 
             // AddContentsText
@@ -84,7 +84,7 @@ namespace WinFormsAppWarehouseManagement.FileEntryContents
             this.addContentsPanel.Controls.Add(this.label1);
             this.addContentsPanel.Location = new System.Drawing.Point(48, 152);
             this.addContentsPanel.Name = "addContentsPanel";
-            this.addContentsPanel.Size = new System.Drawing.Size(878, 750);
+            this.addContentsPanel.Size = new System.Drawing.Size(862, 750);
             this.addContentsPanel.TabIndex = 1;
             // 
             // btSave
@@ -166,7 +166,7 @@ namespace WinFormsAppWarehouseManagement.FileEntryContents
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(17F, 41F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(986, 931);
+            this.ClientSize = new System.Drawing.Size(970, 931);
             this.Controls.Add(this.addContentsPanel);
             this.Controls.Add(this.addPanel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;

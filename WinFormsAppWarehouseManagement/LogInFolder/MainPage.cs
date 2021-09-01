@@ -24,14 +24,14 @@ namespace WinFormsAppWarehouseManagement
         private void FileEntyBt_Click(object sender, EventArgs e)
         {
             this.Hide();
-            FileEntryForm fef = new FileEntryForm();
-            fef.ShowDialog();
+           LogInFolder.FileEntryForm fef = new LogInFolder.FileEntryForm();
+           fef.ShowDialog();
         }
 
         private void ShipReceiveBt_Click(object sender, EventArgs e)
         {
             this.Hide();
-            ShippingReceivingForm srf = new ShippingReceivingForm();
+           ShippingReceivingForm srf = new ShippingReceivingForm();
             srf.ShowDialog();
         }
 
@@ -45,14 +45,14 @@ namespace WinFormsAppWarehouseManagement
         private void SaveFileBt_Click(object sender, EventArgs e)
         {
             this.Hide();
-            SaveFileForm sf = new SaveFileForm();
-            sf.ShowDialog();
+           SaveFileForm sf = new SaveFileForm();
+           sf.ShowDialog();
         }
 
         private void HelpBt_Click(object sender, EventArgs e)
         {
             this.Hide();
-            HelpForm h = new HelpForm();
+           HelpForm h = new HelpForm();
             h.ShowDialog();
         }
     }

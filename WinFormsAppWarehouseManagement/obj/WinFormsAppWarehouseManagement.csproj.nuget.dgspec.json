@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\annah\\Documents\\cs481TeamProject\\cs481-s21-team_2\\src\\csharp-project\\WinFormsAppWarehouseManagement\\WinFormsAppWarehouseManagement\\WinFormsAppWarehouseManagement.csproj": {}
+    "C:\\Users\\annah\\Documents\\WarehouseManagementProject\\WarehouseManagementCsharpProject\\WinFormsAppWarehouseManagement\\WinFormsAppWarehouseManagement.csproj": {}
   },
   "projects": {
-    "C:\\Users\\annah\\Documents\\cs481TeamProject\\cs481-s21-team_2\\src\\csharp-project\\WinFormsAppWarehouseManagement\\WinFormsAppWarehouseManagement\\WinFormsAppWarehouseManagement.csproj": {
+    "C:\\Users\\annah\\Documents\\WarehouseManagementProject\\WarehouseManagementCsharpProject\\WinFormsAppWarehouseManagement\\WinFormsAppWarehouseManagement.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\annah\\Documents\\cs481TeamProject\\cs481-s21-team_2\\src\\csharp-project\\WinFormsAppWarehouseManagement\\WinFormsAppWarehouseManagement\\WinFormsAppWarehouseManagement.csproj",
+        "projectUniqueName": "C:\\Users\\annah\\Documents\\WarehouseManagementProject\\WarehouseManagementCsharpProject\\WinFormsAppWarehouseManagement\\WinFormsAppWarehouseManagement.csproj",
         "projectName": "WinFormsAppWarehouseManagement",
-        "projectPath": "C:\\Users\\annah\\Documents\\cs481TeamProject\\cs481-s21-team_2\\src\\csharp-project\\WinFormsAppWarehouseManagement\\WinFormsAppWarehouseManagement\\WinFormsAppWarehouseManagement.csproj",
+        "projectPath": "C:\\Users\\annah\\Documents\\WarehouseManagementProject\\WarehouseManagementCsharpProject\\WinFormsAppWarehouseManagement\\WinFormsAppWarehouseManagement.csproj",
         "packagesPath": "C:\\Users\\annah\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\annah\\Documents\\cs481TeamProject\\cs481-s21-team_2\\src\\csharp-project\\WinFormsAppWarehouseManagement\\WinFormsAppWarehouseManagement\\obj\\",
+        "outputPath": "C:\\Users\\annah\\Documents\\WarehouseManagementProject\\WarehouseManagementCsharpProject\\WinFormsAppWarehouseManagement\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\annah\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31005.135
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsAppWarehouseManagement", "WinFormsAppWarehouseManagement\WinFormsAppWarehouseManagement.csproj", "{FEE0231E-A12B-4550-9ADF-F78B6303F4FF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinFormsAppWareHouseManagementTestProject", "WinFormsAppWareHouseManagementTestProject\WinFormsAppWareHouseManagementTestProject.csproj", "{9B26FA54-5772-426A-BFB1-05EF61E6B4E1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WinFormsAppWareHouseManagementTestProject", "WinFormsAppWareHouseManagementTestProject\WinFormsAppWareHouseManagementTestProject.csproj", "{9B26FA54-5772-426A-BFB1-05EF61E6B4E1}"
 	ProjectSection(ProjectDependencies) = postProject
 		{FEE0231E-A12B-4550-9ADF-F78B6303F4FF} = {FEE0231E-A12B-4550-9ADF-F78B6303F4FF}
 	EndProjectSection
@@ -13,17 +13,27 @@ EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
+		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{FEE0231E-A12B-4550-9ADF-F78B6303F4FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{FEE0231E-A12B-4550-9ADF-F78B6303F4FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEE0231E-A12B-4550-9ADF-F78B6303F4FF}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FEE0231E-A12B-4550-9ADF-F78B6303F4FF}.Debug|x86.Build.0 = Debug|Any CPU
 		{FEE0231E-A12B-4550-9ADF-F78B6303F4FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FEE0231E-A12B-4550-9ADF-F78B6303F4FF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEE0231E-A12B-4550-9ADF-F78B6303F4FF}.Release|x86.ActiveCfg = Release|x86
+		{FEE0231E-A12B-4550-9ADF-F78B6303F4FF}.Release|x86.Build.0 = Release|x86
 		{9B26FA54-5772-426A-BFB1-05EF61E6B4E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{9B26FA54-5772-426A-BFB1-05EF61E6B4E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B26FA54-5772-426A-BFB1-05EF61E6B4E1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{9B26FA54-5772-426A-BFB1-05EF61E6B4E1}.Debug|x86.Build.0 = Debug|Any CPU
 		{9B26FA54-5772-426A-BFB1-05EF61E6B4E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B26FA54-5772-426A-BFB1-05EF61E6B4E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B26FA54-5772-426A-BFB1-05EF61E6B4E1}.Release|x86.ActiveCfg = Release|Any CPU
+		{9B26FA54-5772-426A-BFB1-05EF61E6B4E1}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

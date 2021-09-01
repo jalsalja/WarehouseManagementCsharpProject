@@ -8,26 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WinFormsAppWarehouseManagement
+namespace WinFormsAppWarehouseManagement.LogInFolder
 {
     public partial class FileEntryForm : Form
     {
         public FileEntryForm()
         {
             InitializeComponent();
-        }
-
-        private void FileEntryForm_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void BackToMainFE_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-
-            MainPage mp = new MainPage();
-            mp.ShowDialog();
         }
 
         private void CheckContentBt_Click(object sender, EventArgs e)
@@ -37,11 +24,19 @@ namespace WinFormsAppWarehouseManagement
             fc.ShowDialog();
         }
 
-        private void sveFromFile_Click(object sender, EventArgs e)
+        private void BackToMain_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            MainPage mp = new MainPage();
+            mp.ShowDialog();
+        }
+
+        private void SaveFromFile_Click(object sender, EventArgs e)
         {
             this.Hide();
             FileEntryContents.SaveFromFile sf = new FileEntryContents.SaveFromFile();
             sf.ShowDialog();
+
         }
     }
 }
